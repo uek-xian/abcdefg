@@ -1,0 +1,64 @@
+.content .box{
+  width: 254px;
+  height: 254px;
+  position: absolute;
+  top:90px;
+  z-index: 3;
+}
+
+.content .box-wenzi{
+  width: 182px;
+  height: 79px;
+  position: absolute;
+  top:420px;
+  z-index: 3;
+  margin-left:30px;
+}
+
+.one{
+  left:30px;
+}
+.two{
+  left:330px;
+}
+.three{
+  left:630px;
+}
+.four{
+  left:930px;
+}
+.five{
+  left:1230px;
+}
+
+#beijing{
+  background: url('../imgs/category/1背景.png');
+}
+#goucheng{
+  background: url('../imgs/category/2构成.png');
+}
+#fazhan{
+  background: url('../imgs/category/3发展.png');
+}
+#zhaoshang{
+  background: url('../imgs/category/4招商.png');
+}
+#youshi{
+  background: url('../imgs/category/5优势.png');
+}
+
+#beijing-wenzi{
+  background: url('../imgs/category/背景.png');
+}
+#goucheng-wenzi{
+  background: url('../imgs/category/构成.png');
+}
+#fazhan-wenzi{
+  background: url('../imgs/category/发展.png');
+}
+#zhaoshang-wenzi{
+  background: url('../imgs/category/招商.png');
+}
+#youshi-wenzi{
+  background: url('../imgs/category/优势.png');
+}

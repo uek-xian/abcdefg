@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="xian">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/category.css">
+  <link rel="stylesheet" href="css/show.css">
+
+  <script src="js/angular.js"></script>
+  <script src="js/angular-route.js"></script>
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <header class="header container clearfix">
+    <h1>西安文化科技创业城</h1>
+    <ul class="clearfix">
+      <li>
+        <span>背景</span>
+      </li>
+      <li>
+        <span>构成</span>
+      </li>
+      <li>
+        <span>发展</span>
+      </li>
+      <li>
+        <span>招商</span>
+      </li>
+      <li>
+        <span>优势</span>
+      </li>
+    </ul>
+  </header>
+
+  <div class="content container">
+    <div ng-view></div>
+  </div>
+
+  <footer class="footer clearfix">
+    <figure id="contact"></figure>
+    <figure id="copyright"></figure>
+    <address>
+    联系我们:400-669-84128
+    西安科技文化创业城
+    </address>
+  </footer>
+
+</body>
+</html>

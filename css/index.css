@@ -1,0 +1,104 @@
+#background{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 434px;
+  background: url('../imgs/index/背景.png')
+}
+#wall{
+  position: absolute;
+  top:152px;
+  left:50%;
+  width: 332px;
+  height: 203px;
+  background: url('../imgs/index/古城.png')
+}
+#tower{
+  position: absolute;
+  top:162px;
+  left:50%;
+  margin-left:-290px;
+  width: 97px;
+  height: 177px;
+  background: url('../imgs/index/塔.png')
+}
+
+#cloud1{
+  position: absolute;
+  top:130px;
+  left:300px;
+  width: 24px;
+  height: 21px;
+  background: url('../imgs/index/云1.png')
+}
+#cloud2{
+  position: absolute;
+  top:80px;
+  left:350px;
+  z-index: 1;
+  width: 87px;
+  height: 21px;
+  background: url('../imgs/index/云2.png')
+}
+#cloud3{
+  position: absolute;
+  top:90px;
+  left:470px;
+  z-index: 1;
+  width: 139px;
+  height: 36px;
+  background: url('../imgs/index/云3.png')
+}
+#cloud4{
+  position: absolute;
+  top:120px;
+  left:930px;
+  width: 146px;
+  height: 82px;
+  background: url('../imgs/index/云4.png')
+}
+#cloud5{
+  position: absolute;
+  top:70px;
+  left:1012px;
+  width: 91px;
+  height: 22px;
+  background: url('../imgs/index/云5.png')
+}
+#sun{
+  position: absolute;
+  top:0;
+  left:50%;
+  width: 58px;
+  height: 55px;
+  background: url('../imgs/index/太阳.png')
+}
+
+#car{
+  position: absolute;
+  top:320px;
+  left:560px;
+  width: 103px;
+  height: 48px;
+  background: url('../imgs/index/车.png');
+}
+#glass1{
+  position: absolute;
+  top:310px;
+  left:50%;
+  margin-left:140px;
+  z-index: 2;
+  width: 143px;
+  height: 78px;
+  background: url('../imgs/index/草1.png');
+}
+#glass2{
+  position: absolute;
+  top:310px;
+  left:360px;
+  z-index: 2;
+  width: 113px;
+  height: 65px;
+  background: url('../imgs/index/草2.png');
+}
